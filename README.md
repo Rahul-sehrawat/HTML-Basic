@@ -95,9 +95,9 @@
 
     `none`: Using this property we can hide the HTML element.
 
-20. **What is the difference between <figure> tag and <img> tag?**
+20. **What is the difference between `<figure>` tag and `<img>` tag?**
 
-    The <figure> tag specifies the self-contained content, like diagrams, images, code snippets, etc. <figure> tag is used to semantically organize the contents of an image like image, image caption, etc., whereas the <img> tag is used to embed the picture in the HTML5 document
+    The `<figure>` tag specifies the self-contained content, like diagrams, images, code snippets, etc. `<figure>` tag is used to semantically organize the contents of an image like image, image caption, etc., whereas the `<img>` tag is used to embed the picture in the HTML5 document
 
 21. **What is the difference between <meter> tag and <progress> tag?**
 
