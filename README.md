@@ -27,7 +27,7 @@
 
 6. **What is semantic HTML?**
 
-    Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics or meaning of the content. 
+    Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics or meaning of the content.For example: `<form>`, `<table>`, and `<article>`,
 
 7. **What is SVG in HTML?**
 
@@ -103,3 +103,43 @@
 
     `<progress>` tag should be used when we want to show the completion progress of a task, whereas if we just want a scalar measurement within a known range or fraction value. Also, we can specify multiple extra attributes for `<meter>` tags like ‘form’, ‘low’, ‘high’, ‘min’, etc.
 
+22. **Is drag and drop possible using HTML5 and how?**
+
+    Yes, in HTML5 we can drag and drop an element. This can be achieved using the drag and drop-related events to be used with the element which we want to drag and drop.
+
+23. **Explain the concept of web storage in HTML5.**
+
+    This web storage helps in storing some of the static data in the local storage of the browser so that we do not need to fetch it from the server every time we need it.
+
+    `Local Storage`: This helps in storing data that will be retained even though the user reopens the browser. It is stored for each webapp on different browsers.
+
+    `Session Storage`: This is used for one session only. After the user closes the browser this gets deleted.
+
+24. **What is the usage of a novalidate attribute for the form tag that is introduced in HTML5?**
+
+    Its value is a boolean type that indicates whether or not the data being submitted by the form will be validated beforehand. By making this false, forms can be submitted without validation which helps users to resume later also.
+
+25. **What are raster images and vector images?**
+
+    `Raster Images`: The raster image is defined by the arrangement of pixels in a grid with exactly what color the pixel should be. Few raster file formats include PNG(.png), JPEG(.jpg), etc.
+
+    `Vector Images`: The vector image is defined using algorithms with shape and path definitions that can be used to render the image on-screen written in a similar markup fashion. The file extension is .svg
+
+26. **What is a manifest file in HTML5?**
+
+    The manifest file is used to list down resources that can be cached. Browsers use this information to make the web page load faster than the first time. There are 3 sections in the manifest file
+
+    `CACHE Manifest`: Files needs to be cached
+    `Network`: File never to be cached, always need a network connection.
+    `Fallback`: Fallback files in case a page is inaccessible
+
+27. **What is URL Encoding? Why are URLs encoded in HTML?**
+
+    URL Encoding is the process of encoding non-ASCII characters in URLs to a format that is universally accepted by web browsers. URLs are sent over the Internet using the ASCII character set. If a URL contains characters outside the ASCII set, the URL has to be converted. 
+    URL is encoded in HTML as it converts non-ASCII characters into a format that can be transmitted over the web. The URL encoding replaces non-ASCII characters with a “%” followed by hexadecimal digits.
+
+28. **What is HTML `<details>` tag.**
+
+    HTML `<details>` tag is used to specify the additional details on the web page that the user can view or hide on demand.
+    It is used together with a relevant tag known as `<summary>`. Technically, there is no need of summary tag, but if you ignore this then the browser will use some default text.
+    
